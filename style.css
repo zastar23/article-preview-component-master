@@ -185,6 +185,10 @@ DESKTOP:
 		position: relative;
 	}
 
+	.share__section {
+		position: relative;
+	}
+
 	.share__options {
 		width: 17rem;
 		border-radius: 10px;
