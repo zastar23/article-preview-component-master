@@ -159,6 +159,48 @@ DESKTOP:
 		margin: 0 auto;
 	}
 
+	.header {
+		width: 50%;
+		display: flex;
+		justify-content: end;
+	}
+
+	.header__img {
+		height: 20rem;
+		width: 30rem;
+		border-bottom-left-radius: 10px;
+	}
+
+	.main {
+		margin: 0 0 0 -7rem;
+		width: 40%;
+		max-width: 40rem;
+		height: 20rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		border-bottom-left-radius: 0;
+		border-top-right-radius: 10px;
+		padding: 1rem;
+		position: relative;
+	}
+
+	.share__options {
+		width: 17rem;
+		border-radius: 10px;
+		left: 21.4rem;
+		top: -4rem;
+	}
+
+	.share__options::before {
+		content: " ";
+		width: 1rem;
+		background-color: var(--very_dark_grayish_blue);
+		position: relative;
+		top: 1.5rem;
+		left: 7.3rem;
+		transform: rotate(45deg);
+	}
 	.attribution {
 		position: absolute;
 		top: 10%;
